@@ -1,0 +1,16 @@
+
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form (ngSubmit)="login3()">
+        <label for="param1">Param1</label>
+        <input type="text" id="param1" [(ngModel)]="param1" name="param1" required>
+  
+        <label for="param2">Param2</label>
+        <input type="password" id="param2" [(ngModel)]="param2" name="param2" required>
+  
+        <button type="submit">Login</button>
+      </form>
+</body>
